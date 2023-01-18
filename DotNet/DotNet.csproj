@@ -115,5 +115,8 @@
     <Content Include="01_basic\04_Synat\00_txt\04_Synat.txt" />
     <Content Include="16_ExceptionHandling\00_ExceptionText\TextFile1.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GitTest\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
