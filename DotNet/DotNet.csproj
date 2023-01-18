@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{623D071A-D91A-421B-B1C1-2C12F326F49D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>DotNet</RootNamespace>
+    <AssemblyName>DotNet</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01_basic\00_HelloWorld\HelloWorld.cs" />
+    <Compile Include="01_basic\04_Synat\01_EmptyStatement\EmptyStatement.cs" />
+    <Compile Include="01_basic\04_Synat\02_ClassSimple\ClassSimple.cs" />
+    <Compile Include="01_basic\04_Synat\03_WriteLineDemo1\WriteLineDemo1.cs" />
+    <Compile Include="01_basic\04_Synat\03_WriteLineDemo1\WriteLineDemo2.cs" />
+    <Compile Include="01_basic\04_Synat\04_ConsoleWrite\ConsoleWrite.cs" />
+    <Compile Include="01_basic\04_Synat\05_NewLine\NewLine.cs" />
+    <Compile Include="01_basic\04_Synat\06_Comment\Comment.cs" />
+    <Compile Include="01_basic\04_Synat\06_Comment\MultiLineComment.cs" />
+    <Compile Include="01_basic\04_Synat\06_Comment\SingleLineComment - 복사본.cs" />
+    <Compile Include="01_basic\04_Synat\07_Whitespace\Whitespace.cs" />
+    <Compile Include="01_basic\04_Synat\08_Quotes\Quotes.cs" />
+    <Compile Include="01_basic\04_Synat\09_PlaceHolder\PlaceHolder.cs" />
+    <Compile Include="01_basic\04_Synat\10_PlaceTwice\PlaceTwice.cs" />
+    <Compile Include="01_basic\04_Synat\11_PlaceHolderMulti\PlaceHolderMulti.cs" />
+    <Compile Include="01_basic\04_Synat\12_PlaceHolderChange\PlaceHolderChange.cs" />
+    <Compile Include="02_EscapeSequence\EscapeSequence.cs" />
+    <Compile Include="03_Variable\Varible.cs" />
+    <Compile Include="04_IntegerDemo\IntergerDemo.cs" />
+    <Compile Include="05_WriteLineNote\WriteLineNote.cs" />
+    <Compile Include="06_ReadLineNote\ReadLineNote.cs" />
+    <Compile Include="07_Operator\00_Operator.cs" />
+    <Compile Include="07_Operator\01_RelationalOperator.cs" />
+    <Compile Include="07_Operator\02_LogicalOperator.cs" />
+    <Compile Include="07_Operator\03_BitOperator.cs" />
+    <Compile Include="07_Operator\04_ShiftOperator.cs" />
+    <Compile Include="07_Operator\05_ConditionalOperator.cs" />
+    <Compile Include="08_ControlStatement\ifDemo.cs" />
+    <Compile Include="08_ControlStatement\switchDemo.cs" />
+    <Compile Include="09_RepeatingSentence\breakDemo.cs" />
+    <Compile Include="09_RepeatingSentence\continueDemo.cs" />
+    <Compile Include="09_RepeatingSentence\dowhileDemo.cs" />
+    <Compile Include="09_RepeatingSentence\forDemo.cs" />
+    <Compile Include="09_RepeatingSentence\forechDemo.cs" />
+    <Compile Include="09_RepeatingSentence\gotoDemo.cs" />
+    <Compile Include="09_RepeatingSentence\whileDemo.cs" />
+    <Compile Include="10_Araay\Arraydemo.cs" />
+    <Compile Include="10_Araay\ArrayEx.cs" />
+    <Compile Include="10_Araay\ArrayForeachDemo.cs" />
+    <Compile Include="11_Function\FunctionDemo.cs" />
+    <Compile Include="11_Function\FunctionNote.cs" />
+    <Compile Include="11_Function\UserRegister.cs" />
+    <Compile Include="12_StructureTypes\DayDemo.cs" />
+    <Compile Include="12_StructureTypes\GuidDemo.cs" />
+    <Compile Include="12_StructureTypes\StructDemo.cs" />
+    <Compile Include="13_enum\enumNote.cs" />
+    <Compile Include="14_class\classDemo.cs" />
+    <Compile Include="15_String\StringDisplay.cs" />
+    <Compile Include="15_String\StringFunction.cs" />
+    <Compile Include="16_ExceptionHandling\01_TryCatch\TryCatchDemo.cs" />
+    <Compile Include="16_ExceptionHandling\02_TryCatchFinally\TryCatchFinallyDemo.cs" />
+    <Compile Include="16_ExceptionHandling\03_ThrowNote\ThrowNote.cs" />
+    <Compile Include="16_ExceptionHandling\04_TryFinalyDemo\TryFinalyDemo.cs" />
+    <Compile Include="17_Collection\GenericDemo.cs" />
+    <Compile Include="18_Null\NullDemo.cs" />
+    <Compile Include="19_LINQ\LINQ_All.cs" />
+    <Compile Include="19_LINQ\LINQ_Any.cs" />
+    <Compile Include="19_LINQ\LINQ_Distinct.cs" />
+    <Compile Include="19_LINQ\LINQ_OrderBy.cs" />
+    <Compile Include="19_LINQ\LINQ_Sum.cs" />
+    <Compile Include="19_LINQ\LINQ_Take.cs" />
+    <Compile Include="19_LINQ\LINQ_Where.cs" />
+    <Compile Include="19_LINQ\MinAndMAx.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="01_basic\04_Synat\00_txt\04_Synat.txt" />
+    <Content Include="16_ExceptionHandling\00_ExceptionText\TextFile1.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
