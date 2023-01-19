@@ -7,7 +7,7 @@ class forechDemo
     static void Main()
     {
         string[] names = { "C#", "ASP.NET" };
-        foreach (string name in names) // names 배열에서 하나씩 뽑아서 name변수 선언 후
+        foreach (string name in names) // name변수 선언 후 names 배열에서 하나씩 뽑아서 
         {
             Console.WriteLine(name); // 출력하는 의미
         }

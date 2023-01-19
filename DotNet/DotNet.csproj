@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>LINQ_QuerySyntax</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -100,12 +103,16 @@
     <Compile Include="18_Null\NullDemo.cs" />
     <Compile Include="19_LINQ\LINQ_All.cs" />
     <Compile Include="19_LINQ\LINQ_Any.cs" />
+    <Compile Include="19_LINQ\LINQ_Chaining.cs" />
     <Compile Include="19_LINQ\LINQ_Distinct.cs" />
     <Compile Include="19_LINQ\LINQ_OrderBy.cs" />
+    <Compile Include="19_LINQ\LINQ_QuerySyntax.cs" />
+    <Compile Include="19_LINQ\LINQ_Serarch.cs" />
     <Compile Include="19_LINQ\LINQ_Sum.cs" />
     <Compile Include="19_LINQ\LINQ_Take.cs" />
     <Compile Include="19_LINQ\LINQ_Where.cs" />
     <Compile Include="19_LINQ\MinAndMAx.cs" />
+    <Compile Include="19_LINQ\LINQ_FromWhereSelect.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -115,8 +122,6 @@
     <Content Include="01_basic\04_Synat\00_txt\04_Synat.txt" />
     <Content Include="16_ExceptionHandling\00_ExceptionText\TextFile1.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="GitTest\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
