@@ -8,7 +8,7 @@ class LINQ_Single
     {
         List<string> colors = new List<string> { "Red", "Green", "Blue" };
 
-        // Single은 찾는 값이 있으면 반환, 없으면 예외 발생
+        // Single은 찾는 값는 값을 반환, 없으면 예외 발생
         string red = colors.Single(c => c == "Red");
 
         Console.WriteLine(red);

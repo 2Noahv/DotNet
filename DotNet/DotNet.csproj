@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LINQ_QuerySyntax</StartupObject>
+    <StartupObject>FieldDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -105,14 +105,23 @@
     <Compile Include="19_LINQ\LINQ_Any.cs" />
     <Compile Include="19_LINQ\LINQ_Chaining.cs" />
     <Compile Include="19_LINQ\LINQ_Distinct.cs" />
+    <Compile Include="19_LINQ\LINQ_Map.cs" />
     <Compile Include="19_LINQ\LINQ_OrderBy.cs" />
     <Compile Include="19_LINQ\LINQ_QuerySyntax.cs" />
+    <Compile Include="19_LINQ\LINQ_Select.cs" />
     <Compile Include="19_LINQ\LINQ_Serarch.cs" />
+    <Compile Include="19_LINQ\LINQ_Single.cs" />
+    <Compile Include="19_LINQ\LINQ_SingleOrDefault.cs" />
     <Compile Include="19_LINQ\LINQ_Sum.cs" />
     <Compile Include="19_LINQ\LINQ_Take.cs" />
     <Compile Include="19_LINQ\LINQ_Where.cs" />
     <Compile Include="19_LINQ\MinAndMAx.cs" />
     <Compile Include="19_LINQ\LINQ_FromWhereSelect.cs" />
+    <Compile Include="20_Object\01_ObjectDemo\ClassCode.cs" />
+    <Compile Include="21_Namespace\01_NamespaceDemo\Bar.Car.cs" />
+    <Compile Include="21_Namespace\01_NamespaceDemo\Foo.Car.cs" />
+    <Compile Include="21_Namespace\01_NamespaceDemo\NamespaceDemo.cs" />
+    <Compile Include="22_Field\01_FieldDemo\FieldDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -121,6 +130,9 @@
   <ItemGroup>
     <Content Include="01_basic\04_Synat\00_txt\04_Synat.txt" />
     <Content Include="16_ExceptionHandling\00_ExceptionText\TextFile1.txt" />
+    <Content Include="20_Object\00_ObjectText\Object.txt" />
+    <Content Include="21_Namespace\00_NamespaceText\Namespace.txt" />
+    <Content Include="22_Field\00_FieldText\Field.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
