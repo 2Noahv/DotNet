@@ -1,0 +1,85 @@
+﻿    메서드(Methods)
+    - 메서드 정의
+        액세스 한정자(Accessor), 접근지정자
+        반환값(ReturnType)
+        반환값은 모든 타입(any type)이 될 수 있음
+        반환값 없는 경우에는 void
+        메서드(함수)명(FunctionName)
+        매개변수(Parameters)    
+
+        시그니처: 메서드명과 매개변수 리스트
+                            시그니처 함수명과 매개변수 리스트 (메서드 오버로드 구분점이 됨)
+        Accessor returnType FunctionName(Parameters)
+        {
+            Code;
+        }
+
+    매개변수(파라미터) 전달 기법
+    파라미터 전달의 3가지 방법
+    - int : 입력 모드
+    .값에 의한 전달(Pass by value)
+
+    .Call by value
+    .파라미터 전달의 기본 기법
+    .파라미터 값이 복사됨
+    .변수는 메서드 안에서 바뀜
+    .메서드 밖에 있는 값에는 영향을 미치지 않음
+    .파라미터는 반드시 같거나 호환 가능해야 함
+
+        static void Add One(int x)
+        {
+            x++; // 넘어온 값을 1증가
+        }
+        static void Main()
+        {
+            int k = 6;
+            AddOne(k);
+            Console.WriteLine(k); // 6 출력, 7로 증가되지 않음
+        }
+
+    - ref : 입출력 모드
+    .참조에 의한 전달(Pass by refernce)
+
+    .Call by reference
+    .참조형 매개변수란?
+    . 참조란 메모리 상의 위치(포인터)
+    .참조형 매개변수 사용
+    .형식과 변숫값이 맞아야 함
+    .호출자에 의해서 원본 데이터에 영향
+    .메서드를 호출하기 전에 매개변수를 초기화해야 함
+
+    - Out : 출력 모드
+    .Output 매개변수(Output parameters)
+
+    .Output 매개변수
+    .매개 변수의 값이 메서드 안에서 밖으로 전달
+    .Output 매개변수 사용
+    .기본적으로 ref 매개변수와 같다.
+    .그렇지만 값이 메서드 안으로 전달되지는 않음
+    .메서드 선언과 호출시 out 키워드 사용
+
+    static void OutDemo(out int p)
+    {
+        // ...
+    }
+    int n;
+    OutDemo(out n);
+
+     
+    가변형 매개변수 : C#
+
+    .params 키어드 사용
+    .값 전달
+    .한번에 여러 개의 매개변수(배열형) 전달 가능
+
+    static long AddList(params long[ ] v)
+    {
+        long total, i;
+        for (i = 0, total = 0; i < v.Length; i++)
+            total += v[i];
+            return total;
+    }
+    static void Main()
+    {
+        long x = AddList(63,21,84);
+    }

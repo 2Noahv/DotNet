@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>FieldDemo</StartupObject>
+    <StartupObject>MethodsDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -122,6 +122,9 @@
     <Compile Include="21_Namespace\01_NamespaceDemo\Foo.Car.cs" />
     <Compile Include="21_Namespace\01_NamespaceDemo\NamespaceDemo.cs" />
     <Compile Include="22_Field\01_FieldDemo\FieldDemo.cs" />
+    <Compile Include="23_Constructor\01_ConstructorDemo\ConstructorDemo.cs" />
+    <Compile Include="24_Destructor\01_DestructorDemo\DestructorDemo.cs" />
+    <Compile Include="25_Methods\MethodsDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -133,6 +136,8 @@
     <Content Include="20_Object\00_ObjectText\Object.txt" />
     <Content Include="21_Namespace\00_NamespaceText\Namespace.txt" />
     <Content Include="22_Field\00_FieldText\Field.txt" />
+    <Content Include="23_Constructor\00_Constructortext\Constructor.txt" />
+    <Content Include="24_Destructor\00_DestructorText\DestructorText.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
