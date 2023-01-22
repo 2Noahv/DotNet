@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MethodsDemo</StartupObject>
+    <StartupObject>IndexerAndIteratorDemo.IndexerAndIterator</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -124,7 +124,11 @@
     <Compile Include="22_Field\01_FieldDemo\FieldDemo.cs" />
     <Compile Include="23_Constructor\01_ConstructorDemo\ConstructorDemo.cs" />
     <Compile Include="24_Destructor\01_DestructorDemo\DestructorDemo.cs" />
-    <Compile Include="25_Methods\MethodsDemo.cs" />
+    <Compile Include="25_Methods\01_MethodsDemo\Car33.cs" />
+    <Compile Include="25_Methods\01_MethodsDemo\MethodsDemo.cs" />
+    <Compile Include="25_Methods\02_MessengerDemo\MessengerDemo.cs" />
+    <Compile Include="26_Property\01_PropertyDemo\PropertyDemo.cs" />
+    <Compile Include="27_인덱서와 반복기\01_IndexerAndIterator\IndexerAndIterator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -138,6 +142,9 @@
     <Content Include="22_Field\00_FieldText\Field.txt" />
     <Content Include="23_Constructor\00_Constructortext\Constructor.txt" />
     <Content Include="24_Destructor\00_DestructorText\DestructorText.txt" />
+    <Content Include="25_Methods\00_MethodsText\MethodsText.txt" />
+    <Content Include="26_Property\00_PropertyText\PropertyText.txt" />
+    <Content Include="27_인덱서와 반복기\00_인덱서와 반복기 메모\_인덱서와 반복기 메모.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
