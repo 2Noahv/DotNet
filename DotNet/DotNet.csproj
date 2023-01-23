@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>IndexerAndIteratorDemo.IndexerAndIterator</StartupObject>
+    <StartupObject>OperatorOverload.OperatorOverload</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -129,6 +129,17 @@
     <Compile Include="25_Methods\02_MessengerDemo\MessengerDemo.cs" />
     <Compile Include="26_Property\01_PropertyDemo\PropertyDemo.cs" />
     <Compile Include="27_인덱서와 반복기\01_IndexerAndIterator\IndexerAndIterator.cs" />
+    <Compile Include="28_Delegate\DelegateDemo.cs" />
+    <Compile Include="29_Event\EventAndDelegateDemo.Car.cs" />
+    <Compile Include="29_Event\EventAndDelegate.cs" />
+    <Compile Include="30_ClassEtc\01_PartialCalssDemo\SecondDeveloper.cs" />
+    <Compile Include="30_ClassEtc\01_PartialCalssDemo\PartialClassDemo.cs" />
+    <Compile Include="30_ClassEtc\01_PartialCalssDemo\FirstDeveloper.cs" />
+    <Compile Include="30_ClassEtc\02_PartialClass\PartialClass.cs" />
+    <Compile Include="30_ClassEtc\04_PointFunctional\PointFunctional.cs" />
+    <Compile Include="30_ClassEtc\03_PointImperative\PointImperative.cs" />
+    <Compile Include="30_ClassEtc\05_ImmutableTypeDemo\ImmutableTypeDemo.cs" />
+    <Compile Include="30_ClassEtc\06_OeratorOverload\OperatorOverload.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
