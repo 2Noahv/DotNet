@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OperatorOverload.OperatorOverload</StartupObject>
+    <StartupObject>ClassInheritance.ClassInheritance</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -140,6 +140,27 @@
     <Compile Include="30_ClassEtc\03_PointImperative\PointImperative.cs" />
     <Compile Include="30_ClassEtc\05_ImmutableTypeDemo\ImmutableTypeDemo.cs" />
     <Compile Include="30_ClassEtc\06_OeratorOverload\OperatorOverload.cs" />
+    <Compile Include="31_Inheritance\01_InheritanceDemo\InheritanceDemo.cs" />
+    <Compile Include="31_Inheritance\02_BaseSub\BaseSub.cs" />
+    <Compile Include="31_Inheritance\03_ObjectClass\ObjectClass.cs" />
+    <Compile Include="31_Inheritance\04_InheritancePractice\InheritancePractice.cs" />
+    <Compile Include="31_Inheritance\05_IsAn\IsAn.cs" />
+    <Compile Include="31_Inheritance\06_ClassInheritance\ClassInheritance.cs" />
+    <Compile Include="31_Inheritance\07_ConstructorBase\ConstructorBase.cs" />
+    <Compile Include="31_Inheritance\08_BaseKeyword\BaseKeyword.cs" />
+    <Compile Include="31_Inheritance\09_ConstructorInheritance\ConstructorInheritance.cs" />
+    <Compile Include="31_Inheritance\10_SealedClass\SealedClass.cs" />
+    <Compile Include="31_Inheritance\11_AbstractClassNote\AbstractClassNote.cs" />
+    <Compile Include="31_Inheritance\12_MustInheritDemo\MustInheritDemo.cs" />
+    <Compile Include="31_Inheritance\13_AbstractClassShape\AbstractClassShape.cs" />
+    <Compile Include="31_Inheritance\14_FieldHiding\FieldHiding.cs" />
+    <Compile Include="31_Inheritance\15_MethodNew\MethodNew.cs" />
+    <Compile Include="31_Inheritance\InheritanceNote.cs" />
+    <Compile Include="31_Inheritance\_\부모의멤버접근\부모의멤버접근.cs" />
+    <Compile Include="31_Inheritance\_\상속\상속.cs" />
+    <Compile Include="31_Inheritance\_\추상클래스와추상메서드\추상클래스와추상메서드.cs" />
+    <Compile Include="31_Inheritance\_\클래스상속\클래스상속.cs" />
+    <Compile Include="31_Inheritance\_\필드은폐\필드은폐.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +177,7 @@
     <Content Include="25_Methods\00_MethodsText\MethodsText.txt" />
     <Content Include="26_Property\00_PropertyText\PropertyText.txt" />
     <Content Include="27_인덱서와 반복기\00_인덱서와 반복기 메모\_인덱서와 반복기 메모.txt" />
+    <Content Include="31_Inheritance\00_Inheritance\00_Inheritance.txt" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
